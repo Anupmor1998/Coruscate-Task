@@ -1,4 +1,4 @@
-# coruscate_app_task
+# Coruscate Task
 
 A new Flutter project.
 
