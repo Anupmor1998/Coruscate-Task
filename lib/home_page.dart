@@ -15,7 +15,7 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    page_no = Random().nextInt(100);
+    page_no = Random().nextInt(100); //Ramdoming taking a page no from 1 to 100
   }
 
   ApiServices _apiServices = ApiServices();
@@ -54,7 +54,8 @@ class _HomePageState extends State<HomePage> {
                               border: Border.all(color: Colors.white),
                             ),
                             child: CachedNetworkImage(
-                              imageUrl: e.downloadUrl,
+                              imageUrl: e
+                                  .downloadUrl, //using downloadUrl from jason data from image extraction
                               fit: BoxFit.cover,
                             ),
                           );
@@ -62,7 +63,8 @@ class _HomePageState extends State<HomePage> {
                       );
                     } else {
                       return Center(
-                        child: CircularProgressIndicator(),
+                        child:
+                            CircularProgressIndicator(), //Displaying progress bar while images are loading
                       );
                     }
                   }),
@@ -74,6 +76,7 @@ class _HomePageState extends State<HomePage> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   GestureDetector(
+                    // Detecting the onTap gesture on prev button
                     onTap: () {
                       setState(() {
                         page_no = Random().nextInt(100);
@@ -98,6 +101,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                   GestureDetector(
+                    // Detecting the onTap gesture on next button
                     onTap: () {
                       setState(() {
                         page_no = Random().nextInt(100);

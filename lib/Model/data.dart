@@ -4,6 +4,7 @@ List<Data> dataFromJson(String str) =>
     List<Data>.from(json.decode(str).map((x) => Data.fromJson(x)));
 
 class Data {
+  //converting the jason data into the class for easy access of data
   Data({
     this.id,
     this.author,
