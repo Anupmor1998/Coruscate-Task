@@ -28,11 +28,8 @@ URL: https://picsum.photos/v2/list?page=1&limit=10
 
 # Technology Used:
 
-[![Generic badge](https://img.shields.io/badge/Android-Flutter-<COLOR>.svg)](https://shields.io/)<br>
+[![Generic badge](https://img.shields.io/badge/Dart-Flutter-<COLOR>.svg)](https://shields.io/)<br>
 
-# Language Used:
-
-* Dart Language
 # Home Page:
 
 ![Home Page](ss/home.jpeg)
