@@ -1,16 +1,32 @@
 # Coruscate Task
 
-A new Flutter project.
+A new project for Coruscate and Zujo
 
-## Getting Started
+# Project Description
 
-This project is a starting point for a Flutter application.
+You have to create a mobile application to load images from the following URL
+into local database.
+URL: https://picsum.photos/v2/list?page=1&limit=10
 
-A few resources to get you started if this is your first Flutter project:
+# Requirements
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+1) Show images in a 2 column grid.
+2) Show a random image from local database every time user open’s the
+   application.
+3) Pagination must be there when loading images and it should load only 10 images
+   per page.
+   
+# Constraints
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1) Design of your web app needs to be match with https://www.coruscate.com/
+2) You can develop this app Android, IOS, React Native or Flutter.
+
+# Instructions:
+1) Follow good code standards and divide your components presentation and
+   containers.
+2) Be as genuine as possible.
+
+
+
+
+
