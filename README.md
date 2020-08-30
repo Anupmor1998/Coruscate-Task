@@ -26,6 +26,14 @@ URL: https://picsum.photos/v2/list?page=1&limit=10
    containers.
 2) Be as genuine as possible.
 
+# Technology Used:
+
+* Flutter
+
+# Language USed:
+
+* Dart Language
+
 
 
 
