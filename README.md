@@ -28,7 +28,7 @@ URL: https://picsum.photos/v2/list?page=1&limit=10
 
 # Technology Used:
 
-* Flutter
+[![Generic badge](https://img.shields.io/badge/Android-Flutter-<COLOR>.svg)](https://shields.io/)<br>
 
 # Language Used:
 
