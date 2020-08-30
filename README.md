@@ -1,14 +1,14 @@
-# Coruscate Task
+# Coruscate Flutter App
 
-A new project for Coruscate and Zujo
+A new Flutter project for Coruscate and Zujo
 
-# Project Description
+# Project Description:
 
 You have to create a mobile application to load images from the following URL
 into local database.
 URL: https://picsum.photos/v2/list?page=1&limit=10
 
-# Requirements
+# Requirements:
 
 1) Show images in a 2 column grid.
 2) Show a random image from local database every time user open’s the
@@ -16,7 +16,7 @@ URL: https://picsum.photos/v2/list?page=1&limit=10
 3) Pagination must be there when loading images and it should load only 10 images
    per page.
    
-# Constraints
+# Constraints:
 
 1) Design of your web app needs to be match with https://www.coruscate.com/
 2) You can develop this app Android, IOS, React Native or Flutter.
